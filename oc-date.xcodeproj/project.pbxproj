@@ -18,6 +18,7 @@
 		D46DFA9121C2643D00675B86 /* oc_dateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D46DFA9021C2643D00675B86 /* oc_dateTests.m */; };
 		D46DFAA021C2659C00675B86 /* NSDate+Calculation.m in Sources */ = {isa = PBXBuildFile; fileRef = D46DFA9D21C2659B00675B86 /* NSDate+Calculation.m */; };
 		D46DFAA121C2659C00675B86 /* NSDate+Lunar.m in Sources */ = {isa = PBXBuildFile; fileRef = D46DFA9E21C2659B00675B86 /* NSDate+Lunar.m */; };
+		D46DFAD921C3497F00675B86 /* NSDate+oc_date.m in Sources */ = {isa = PBXBuildFile; fileRef = D46DFAD821C3497F00675B86 /* NSDate+oc_date.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		D46DFA9D21C2659B00675B86 /* NSDate+Calculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Calculation.m"; sourceTree = "<group>"; };
 		D46DFA9E21C2659B00675B86 /* NSDate+Lunar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Lunar.m"; sourceTree = "<group>"; };
 		D46DFA9F21C2659B00675B86 /* NSDate+Calculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Calculation.h"; sourceTree = "<group>"; };
+		D46DFAD721C3497F00675B86 /* NSDate+oc_date.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+oc_date.h"; sourceTree = "<group>"; };
+		D46DFAD821C3497F00675B86 /* NSDate+oc_date.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+oc_date.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 				D46DFA9E21C2659B00675B86 /* NSDate+Lunar.m */,
 				D46DFA9F21C2659B00675B86 /* NSDate+Calculation.h */,
 				D46DFA9D21C2659B00675B86 /* NSDate+Calculation.m */,
+				D46DFAD721C3497F00675B86 /* NSDate+oc_date.h */,
+				D46DFAD821C3497F00675B86 /* NSDate+oc_date.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -313,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46DFAD921C3497F00675B86 /* NSDate+oc_date.m in Sources */,
 				D46DFAA021C2659C00675B86 /* NSDate+Calculation.m in Sources */,
 				D46DFA7C21C2643B00675B86 /* ViewController.m in Sources */,
 				D46DFA8721C2643C00675B86 /* main.m in Sources */,
