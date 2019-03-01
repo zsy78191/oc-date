@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "oc-date"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "自用代码库NSDate相关"
 
   # This description is used to generate tags and improve search results.
